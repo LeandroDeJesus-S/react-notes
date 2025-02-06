@@ -1,23 +1,4 @@
-Instalação
-```shell
-npx create-react-app <appname>
-cd <appname>
-```
-
-Após a execução é criado alguns arquivos:
-```sh
-src/            # pasta raiz do projeto
-   assets/      # diretório de arquivos estático (css, img, etc...)
-   App.js       # Componente principal do projeto.
-   index.js     # Arquivo base do projeto onde o react chama o componente App.js
-```
-
-Pra executar basta rodar o seguinte comando:
-```sh
-npm run start
-```
-
-#### Usando Vite
+## Instalação
 ```sh
 npm create vite@latest my-app --template react
 cd my-app
