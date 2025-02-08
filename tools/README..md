@@ -17,4 +17,8 @@
    - Markdown Preview
    - Prettier
    - Todo Tree
-   
+
+- libs:
+   - **babel**: transpilador JS para retro compatibilidade de navegadores.
+   - [babel loader](https://www.npmjs.com/package/babel-loader)
+   - **webpack**: empacotador de arquivos para deixar a aplicação mais leve e compacta.
