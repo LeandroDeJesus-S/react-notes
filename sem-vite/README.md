@@ -59,8 +59,16 @@ module.exports = {
     resolve: {
         extensions: [".js", ".jsx"],
     },
-    plugin: new HtmlWebPackPlugin({
-        template: "./public/index.html",
-    }),
+    plugins: [
+        new HtmlWebPackPlugin({
+            template: "./public/index.html",
+        })
+    ],
 };
+```
+
+Adicionar na propriedade scripts do arquivo packages.json:
+```json
+"start": "webpack serve --hot --open --mode development",
+"build": "webpack --mode production"
 ```
